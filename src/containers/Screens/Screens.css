@@ -1,0 +1,60 @@
+.Screen1 {
+    width: 90%;
+    margin: auto;
+    height: 450px;
+    line-height: 450px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: rgba(158, 158, 158, 0.555);
+}
+
+.Screen2 {
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 310px;
+    line-height: 310px;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid black;
+    background-color:rgba(158, 158, 158, 0.555);
+}
+
+.Button {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:  crimson;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+.Button:hover {
+      background-color: black;
+      color: white;
+}
+
+.SignOutButton {
+    position: absolute;
+    top: 3.2%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:  crimson;
+    color: black;
+    font-size: 20px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 100;
+}

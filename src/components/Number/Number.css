@@ -1,0 +1,17 @@
+.Circle {
+    display: inline-block;
+    margin-top: 65px;
+    background: black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(circle at 100px 100px, #69676700, #000);
+  }
+
+.Number {
+    text-align: center;
+    height: 0px;
+    line-height: 0px;
+    font-size: 150px;
+} 
+
